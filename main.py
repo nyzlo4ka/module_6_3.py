@@ -18,7 +18,6 @@ class Eagle:
 
 
 class Pegasus(Horse, Eagle):
-    
     def move(self, dx, dy):
         self.run(dx)
         self.fly(dy)
